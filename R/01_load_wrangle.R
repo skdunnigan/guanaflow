@@ -39,7 +39,7 @@ flow_dat %>%
   mutate(date_hour = date + hour) %>%
   ggplot() +
   geom_col(aes(x = date_hour, y = velocity_mean, fill = culvert),
-           stat = "identity",
            position = "dodge") +
-  geom_hline(yintercept = 0)
+  geom_hline(yintercept = 0) +
+  theme_cowplot()
   
