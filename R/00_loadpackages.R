@@ -21,9 +21,3 @@ library(rmarkdown)
 library(cowplot) # additional themes for ggplot2
 library(gridExtra) # grid graphics
 library(scales) # scale functions for visualization
-library(plotly) # create interactive web graphics - use for html output files
-library(ggcorrplot) # visualization of correlation matrix using ggplot2
-  # or install the latest ggcorrplot from GitHub
-  # Install
-  # if(!require(devtools)) install.packages("devtools")
-  # devtools::install_github("kassambara/ggcorrplot")
